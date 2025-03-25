@@ -1,0 +1,91 @@
+2. Website Structure & Key Features
+A. Pages & Navigation
+Landing Page (Login/Sign-up Page)
+
+Users must log in or sign up before accessing the chatbot.
+
+Google authentication (via email ID) should be integrated for easy login.
+
+The login page should have a modern, engaging UI with subtle animations.
+
+User Info Page
+
+After login, users are required to enter their personal details:
+
+Body weight
+
+Height
+
+Age
+
+Gender
+
+Allergy information
+
+This page should be visually appealing, using interactive form elements and smooth transitions.
+
+Home Page (Main Chatbot Interface)
+
+The MediBot chatbot should be the centerpiece of this page.
+
+Users can ask health-related queries and receive instant responses.
+
+The chatbot must be integrated via an external API.
+
+The design should be full, not empty, featuring engaging visuals and animations.
+
+BMI Calculator Page
+
+Users can check their BMI score using an input form.
+
+BMI should be visually represented on a color-coded graph:
+
+Green – Healthy BMI
+
+Yellow – Moderate BMI
+
+Red – Unhealthy BMI (with lifestyle change suggestions)
+
+The page should have smooth animations and interactive elements.
+
+About Us Page
+
+A page explaining the purpose of MediBot and its creators.
+
+Should have a visually engaging layout with images, text, and animations.
+
+Contact Us Page
+
+A contact form for user inquiries.
+
+Integration of email/contact form submission.
+
+3. Look & Feel
+The website should have a professional yet maximalist design.
+
+Avoid blank spaces—use vibrant UI elements, animations, and interactive buttons.
+
+Animations should be fluid and smooth, enhancing user experience.
+
+The chatbot page should be designed as a highly interactive and engaging experience.
+
+4. Functionalities & Integrations
+✅ Google Authentication – Users can log in via Google using their email ID.
+✅ Chatbot API Integration – The chatbot should be added as an external API.
+✅ BMI Calculator – A visually interactive tool to help users assess their BMI.
+✅ Interactive UI – All buttons and elements should respond to user actions with animations.
+✅ Minimal Content Updates Required – The chatbot handles most of the content dynamically.
+
+5. Branding & Logo
+The project name is MediBot.
+
+A custom logo should be designed, incorporating elements related to health and medical information.
+
+The logo should be modern, professional, and instantly recognizable.
+
+6. SEO & Performance Considerations
+(Not a priority but preferred)
+
+Fast-loading pages with optimized assets.
+
+Basic SEO best practices to enhance visibility.
