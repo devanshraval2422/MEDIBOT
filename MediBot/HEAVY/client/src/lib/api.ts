@@ -31,10 +31,20 @@ export interface ChatResponse {
 }
 
 // Health profile API
-export async function createOrUpdateHealthProfile(data: HealthProfileData): Promise<HealthProfile> {
-  const res = await apiRequest("POST", "/api/health-profile", data);
+export async function sendChatMessage(data: ChatMessage): Promise<ChatResponse> {
+  const res = await fetch("/api/chatbot", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer AIzaSyA-M6BvszX7fQ1TJNftEYZNDocGTsXlwPc"
+    },
+    body: JSON.stringify(data),
+    credentials: "include",
+  });
+
   return res.json();
 }
+
 
 export async function getHealthProfile(): Promise<HealthProfile> {
   const res = await fetch("/api/health-profile", {
